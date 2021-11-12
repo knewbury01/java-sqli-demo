@@ -104,9 +104,8 @@
    Then add this database directory to your VS Code =DATABASES= tab.
 
 ** Develop the query bottom-up
-   1. Identify the /source/ part of the 
+   1. Identify the /source/ expression 
       : System.console().readLine();
-      expression, the =buf= argument.  
       Start from a =from..where..select=, then convert to a predicate.
 
    2. Identify the /sink/ part of the
